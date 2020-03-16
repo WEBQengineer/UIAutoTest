@@ -1,0 +1,4 @@
+2020-03-16 19:06:29 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test05(LoginCase.java:76) ]
+ERROR:3和4
+2020-03-16 19:06:29 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test05(LoginCase.java:77) ]
+DEBUG:34不相等

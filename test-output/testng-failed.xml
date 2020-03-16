@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="111111"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://www.imooc.com/"/>
+  <parameter name="username" value="17604515131"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.czq.Imooc.util.TestCaseReport"/>
+  </listeners>
+  <test name="Test">
+    <parameter name="password" value="111111"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.imooc.com/"/>
+    <parameter name="username" value="17604515131"/>
+    <classes>
+      <class name="com.czq.Imooc.runcase.LoginCase">
+        <methods>
+          <exclude name="test02"/>
+        </methods>
+      </class> <!-- com.czq.Imooc.runcase.LoginCase -->
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <parameter name="password" value="111111"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.imooc.com/"/>
+    <parameter name="username" value="17604515131"/>
+    <classes>
+      <class name="com.czq.Imooc.runcase.LoginCase">
+        <methods>
+          <include name="test05"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.czq.Imooc.runcase.LoginCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

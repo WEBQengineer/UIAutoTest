@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+		<listener class-name="com.czq.Imooc.util.TestCaseReport"/>
+	</listeners>
+  <test name="Test">
+  	<parameter name="username" value="17604515131"></parameter>
+  	<parameter name="password" value="111111"></parameter>
+  	<parameter name="url" value="http://www.imooc.com/"></parameter>
+  	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.czq.Imooc.runcase.LoginCase">
+      	<methods>
+      		<exclude name="test02"></exclude>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

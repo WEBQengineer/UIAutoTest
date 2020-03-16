@@ -1,0 +1,20 @@
+2020-02-05 18:56:11 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.BaseCase.GetDriver(BaseCase.java:18) ]
+ERROR:qqqqq
+2020-02-05 18:56:25 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test03(LoginCase.java:65) ]
+DEBUG:信息信息
+2020-02-05 18:56:25 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test03(LoginCase.java:66) ]
+ERROR:信息信息
+2020-02-05 19:03:10 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test05(LoginCase.java:76) ]
+ERROR:1和2
+2020-02-05 19:04:00 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test05(LoginCase.java:76) ]
+ERROR:1和2
+2020-02-05 19:04:00 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test05(LoginCase.java:77) ]
+DEBUG:不相等
+2020-02-05 19:06:07 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test05(LoginCase.java:76) ]
+ERROR:1和2
+2020-02-05 19:06:07 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test05(LoginCase.java:77) ]
+DEBUG:不相等
+2020-02-05 19:10:37 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test05(LoginCase.java:76) ]
+ERROR:3和4
+2020-02-05 19:10:37 下午 [Thread: main][ Class:com.czq.Imooc.runcase.BaseCase >> Method: com.czq.Imooc.runcase.LoginCase.test05(LoginCase.java:77) ]
+DEBUG:34不相等
